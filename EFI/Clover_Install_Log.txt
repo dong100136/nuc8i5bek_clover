@@ -1,0 +1,36 @@
+
+Clover EFI installer log - Wed Nov 14 22:42:40 CST 2018
+Installer version: v2.4k r4701.RM-4963.ca6cca7c EFI bootloader
+======================================================
+/dev/disk0 (internal):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                         251.0 GB   disk0
+   1:                        EFI EFI                     314.6 MB   disk0s1
+   2:          Apple_CoreStorage luoyihao                250.0 GB   disk0s2
+   3:                 Apple_Boot Recovery HD             650.0 MB   disk0s3
+
+/dev/disk1 (internal, virtual):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                  Apple_HFS luoyihao               +249.7 GB   disk1
+                                 Logical Volume on disk0s2
+                                 4A85ECAF-7607-4259-AE9F-9DA63C260BA2
+                                 Unencrypted
+
+/dev/disk2 (external, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:     FDisk_partition_scheme                        *15.5 GB    disk2
+   1:                 DOS_FAT_32 CLOVER EFI              209.7 MB   disk2s1
+   2:                  Apple_HFS Install macOS Mojave    15.3 GB    disk2s2
+
+======================================================
+Backing up EFI files
+
+======================================================
+Installing BootSectors/BootLoader
+
+Stage 0 - Don't write any of boot0af, boot0md, boot0ss to /Volumes/CLOVER EFI
+Stage 1 - Don't write any of boot1h2, boot1f32alt, boot1xalt to /Volumes/CLOVER EFI
+
+======================================================
+=========== Clover EFI Installation Finish ===========
+======================================================
